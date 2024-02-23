@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - Kakao Talk</title>
+
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>22:34</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fa-solid fa-lock"></i>
+            <span>19%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <span><i class="fa-solid fa-chevron-left fa-sm"></i></span>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Gusto</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+            <span><i class="fa-solid fa-bars fa-2x"></i></span>
+        </div>
+        
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Thuesday, June 30, 2020
+        </div>
+        <div class="message-row">
+            <img src="https://img.allurekorea.com/allure/2022/11/style_6374f9da3e3ef-700x700.jpg">
+            <div class="message-row__content">
+                <span class="message__author">James Ran</span>
+                <div class="message__detail">
+                    <span class="message__description">Hi!</span>
+                    <span class="message__timestamp">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__detail">
+                    <span class="message__description">What's up?</span>
+                    <span class="message__timestamp">21:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="reply">
+        <div class="reply__column">
+            <button><i class="fa-solid fa-plus fa-xl"></i></button>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message">
+            <button class="reply__column__imoticon"><i class="fa-regular fa-face-smile fa-xl"></i></button>
+            <button class="reply__column__hashtag"><i class="fa-solid fa-hashtag fa-xl"></i></button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>The screen is too large. Please reduce it.</span>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/0def9b53c9.js" crossorigin="anonymous"></script>
+</body>
+</html>

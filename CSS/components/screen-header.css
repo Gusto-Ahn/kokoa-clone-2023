@@ -1,0 +1,30 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    margin: 0px var(--default-left-space);
+}
+
+.screen-header__title {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.screen-header__icons i {
+    margin-left: 32px;
+    font-size: 30px;
+}
+
+@keyframes hoverSpin {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: hoverSpin 0.8s linear infinite;
+}
