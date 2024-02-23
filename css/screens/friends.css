@@ -1,0 +1,43 @@
+.friends-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    margin-top: 24px;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.friends-info p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 9px;
+}
+
+.friends-info i {
+    color: rgba(0, 0, 0, 0.2)
+}
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splashscreen {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    font-size: 100px;
+    animation: hideSplashScreen 0.1s forwards;
+    animation-delay: 1s;
+}
